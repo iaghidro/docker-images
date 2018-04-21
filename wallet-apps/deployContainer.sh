@@ -7,7 +7,7 @@
 # STEP 2
 # copy the output and execute command where this script will be ran
 
-ECS_ID=203258348872
+ECS_ID=MY_ECS_ID
 
 echo "::deployContainer:: building ${ECS_ID}"
 docker build -t crypto-wallet .
