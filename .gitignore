@@ -1,0 +1,6 @@
+/nbproject/
+/npm-debug.log
+/.npm-install-changed.json
+/.node-xmlhttprequest-sync-*
+/nohup.out
+.DS_Store
