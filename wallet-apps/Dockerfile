@@ -1,5 +1,5 @@
-#FROM 203258348872.dkr.ecr.us-west-1.amazonaws.com/base
-FROM rfolds/base:latest
+
+FROM iaghidro/base:latest
 
 # Set user
 USER root
