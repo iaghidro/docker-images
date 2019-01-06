@@ -56,7 +56,7 @@ apt-get install -y --no-install-recommends yarn
 
 # Install global modules
 ########################
-npm install -g npm@6.6.0;
+npm install -g npm@6.1.0;
 npm install -g forever@v0.15.3;
 npm install -g bunyan@1.8.5;
 npm install -g n;
