@@ -4,7 +4,7 @@
 # THIS SCRIPT IS EXECUTED WHEN THE IMAGE IS BUILT #
 ###################################################
 
-NODE_VERSION="7.7.3";
+NODE_VERSION="11.6.0";
 
 export USER=root;
 
@@ -56,6 +56,7 @@ apt-get install -y --no-install-recommends yarn
 
 # Install global modules
 ########################
-npm install -g npm@4.6.1;
+npm install -g npm@6.6.0;
 npm install -g forever@v0.15.3;
 npm install -g bunyan@1.8.5;
+npm install -g n;
