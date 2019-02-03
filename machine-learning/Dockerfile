@@ -16,9 +16,3 @@ RUN pip3 install matplotlib
 RUN pip3 install ruptures
 RUN pip3 install 'prompt-toolkit==1.0.15'
 RUN export PATH=$PATH:~/.local/bin/
-
-RUN echo "INSTALL DEPENDENCIES";
-RUN npm i;
-
-RUN echo "RUN UNIT TESTS";
-RUN npm test;
