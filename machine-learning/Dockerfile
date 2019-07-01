@@ -5,7 +5,7 @@ FROM iaghidro/base:latest
 USER root
 
 RUN echo "INSTALL PYTHON DEPENDENCIES";
-RUN pip install --upgrade pip
+RUN pip3 install --upgrade pip
 RUN pip3 install ipython==5.3.0
 RUN pip3 install pytest
 RUN pip3 install ta
