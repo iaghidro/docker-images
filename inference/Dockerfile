@@ -1,4 +1,4 @@
-FROM iaghidro/machine-learning
+FROM ubuntu:16.04
 
 RUN apt-get update && apt-get install -y --allow-downgrades --no-install-recommends \
          build-essential \
