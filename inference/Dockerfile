@@ -1,4 +1,4 @@
-FROM iaghidro/base:latest
+FROM iaghidro/machine-learning:latest
 
 RUN apt-get update && apt-get install apt-transport-https -y --allow-downgrades --no-install-recommends \
     build-essential \
